@@ -5,9 +5,9 @@
 <template>
   <div class="basic">
     <div class="left">
-      <div class="name">王志强 RogerWang</div>
-      <div class="job">讲师 Lecturer</div>
-      <div class="university">北京工业大学 BJUT</div>
+      <div class="name"><h2>王志强 RogerWang</h2></div>
+      <div class="job">讲师&程序员 Lecturer & Programmer</div>
+      <div class="item">北京工业大学 BJUT</div>
       <div class="item">Email: wzqcg@bjut.edu.cn</div>
       <div class="item">Wechat: t07297</div>
     </div>
@@ -16,7 +16,7 @@
     </div>
   </div>
   <div class="section">
-    <div class="title">个人简介Profile</div>
+    <div class="title"><h2>个人简介Profile</h2></div>
     <div class="content">
       <p>幼时柔弱，心地清纯，</p>
       <p>青涩求学，无知无瑕。</p>
@@ -29,7 +29,7 @@
     </div>
   </div>
   <div class="section">
-    <div class="title">教育简历Past Education</div>
+    <div class="title"><h2>教育简历Past Education</h2></div>
     <div class="content">
       <P>1994.9至1998.7 天津纺织工学院 机械设计与制造 本科</P>
       <P>2005.9至2008.7 北京工业大学 计算机应用技术 硕士</P>
@@ -37,14 +37,14 @@
     </div>
   </div>
   <div class="section">
-    <div class="title">工作履历Work Experience</div>
+    <div class="title"><h2>工作履历Work Experience</h2></div>
     <div class="content">
       <p>1998.7至2008.6 先后在家具制造、游戏制作、数字电影、展览设计等公司供职</p>
       <p>2008.7至今 北京工业大学 教师</p>
     </div>
   </div>
   <div class="section">
-    <div class="title">技能Skillset</div>
+    <div class="title"><h2>技能Skillset</h2></div>
     <div class="content">
       ...
     </div>
@@ -56,7 +56,8 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #ddd;
 }
 .basic .left{
   display: flex;
@@ -68,25 +69,22 @@
 .basic .left .name{
   font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif;
   color: #454545;
-  font-size: 2.1em;
+  font-size: 3.6em;
   margin-bottom: 6px;
 }
 .basic .left .job{
   font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
   color: #777;
   font-weight: normal;
-  font-size: 0.9em;
+  font-size: 1.8em;
   margin-bottom: 10px;
 }
-.basic .left .university{
-  font-family: "Balthazar", "Droid Serif", serif;
-  color: #656565;
-  font-size: 0.9em;
-  display: block;
-  margin-bottom: 6px;
-}
+
 .basic .left .item {
   font-family: "Balthazar", "Droid Serif", serif;
+  font-size: 1.6em;
+  display: block;
+  margin-bottom: 6px;
 }
 .basic .right img{
   width: 12em;
@@ -114,10 +112,9 @@
 .section .content p{
   font-family: "Balthazar", "Droid Serif", serif;
   color: #565656;
-  font-size: 1.1em;
-  line-height: 1.1em;
+  font-size: 1.8em;
+  line-height: 1.6em;
   margin-bottom: 15px;
   padding-left: 35px;
 }
-
 </style>
