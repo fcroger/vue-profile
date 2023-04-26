@@ -57,7 +57,6 @@
   align-items: flex-start;
   justify-content: space-between;
   margin-bottom: 2rem;
-  border-bottom: 1px solid #ddd;
 }
 .basic .left{
   display: flex;
@@ -69,25 +68,25 @@
 .basic .left .name{
   font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif;
   color: #454545;
-  font-size: 3.6em;
+  font-size: 1.6em;
   margin-bottom: 6px;
 }
 .basic .left .job{
   font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
   color: #777;
   font-weight: normal;
-  font-size: 1.8em;
+  font-size: 1.08em;
   margin-bottom: 10px;
 }
 
 .basic .left .item {
   font-family: "Balthazar", "Droid Serif", serif;
-  font-size: 1.6em;
+  font-size: 0.96em;
   display: block;
   margin-bottom: 6px;
 }
 .basic .right img{
-  width: 12em;
+  width: 7.2em;
   height: auto;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -105,14 +104,13 @@
 .section .title{
   font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif;
     color: #484848;
-    font-size: 1.5em;
+    font-size: 0.9em;
     margin-bottom: 10px;
-    text-decoration: underline;
 }
 .section .content p{
   font-family: "Balthazar", "Droid Serif", serif;
   color: #565656;
-  font-size: 1.8em;
+  font-size: 1.08em;
   line-height: 1.6em;
   margin-bottom: 15px;
   padding-left: 35px;
